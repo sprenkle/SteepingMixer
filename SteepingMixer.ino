@@ -25,8 +25,6 @@ void loop()
   digitalWrite(Pin2, LOW); 
   digitalWrite(Pin3, LOW); 
   delay(LONG_DELAY_MS);
-//  unsigned long startMillis = millis();
-//  while (startMillis + LONG_DELAY_MS > millis() && millis() >= startMillis);
 }
 
 void step(){
